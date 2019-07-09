@@ -18,6 +18,7 @@
 
 #include<iostream>
 #include<bits/stdc++.h>
+#include<array>
 using namespace std;
 int main(){
     int n;
@@ -70,9 +71,14 @@ int main(){
     }
     //cout<<"counter:"<<counter;
     //int s=sizeof(c)/sizeof(c[0]);
-    sort(c,c+counter);
+    if(counter==0){
+        cout<<"unique";
+    } else{
+        sort(c,c+counter);
     for(int i=0;i<counter;++i){
     	cout<<c[i]<<" ";
     }
+    }
+    
     
 }
