@@ -11,8 +11,8 @@ string main()
     }
     else if (num < 0)
     {
-        return "negative";
+        return "Negative";
     } else{
-        return "zero";
+        return "Zero";
     }
 }
