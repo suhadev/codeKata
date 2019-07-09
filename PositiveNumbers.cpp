@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-string main()
+int main()
 {
   int num;
     cin>>num;
     if (num > 0)
     {
-        return "Positive";
+        cout<<"Positive";
     }
     else if (num < 0)
     {
-        return "Negative";
+        cout<<"Negative";
     } else{
-        return "Zero";
+        cout<<"Zero";
     }
 }
