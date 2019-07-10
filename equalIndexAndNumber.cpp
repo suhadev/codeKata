@@ -32,7 +32,7 @@ int main(){
         }
     }
     for(int i=0; i<counter;i++){
-        cout<<b[i];
+        cout<<b[i]<<" ";
     }
     }
     
