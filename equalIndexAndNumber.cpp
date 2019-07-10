@@ -32,7 +32,12 @@ int main(){
         }
     }
     for(int i=0; i<counter;i++){
-        cout<<b[i]<<" ";
+        if(i == counter-1){
+            cout<<b[i];
+        }else{
+            cout<<b[i]<<" ";
+        }
+        
     }
     }
     
