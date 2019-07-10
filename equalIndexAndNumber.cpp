@@ -14,7 +14,6 @@ int main(){
     for(int i=0;i<n;i++){
     	
         if(a[i] == i){
-            cout<<"element equal to index"<<endl;
             b[counter] = i;
             counter++;
         }
