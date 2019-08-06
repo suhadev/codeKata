@@ -9,7 +9,10 @@ int main(){
     int l = st.length();
     for(int i= l; i>=0;i--){
         reversedNum = reversedNum + st[i];
+        cout<<reversedNum<<endl;
     }
-    
-    (reversedNum == st) ? cout<<"yes":cout<<"no";
+    cout<<"reversedNujm"<<reversedNum<<endl;
+    cout<<st;
+    cout<< (reversedNum == st);
+    (reversedNum == st) ? cout<<"p":cout<<"np";
 }
