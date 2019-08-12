@@ -28,7 +28,7 @@ string reverse(string s){
         reversedString += currentStr[i];
         
     }
-    reversedString += " ";
+    reversedString = (lastWord) ? reversedString : reversedString+" ";
     //cout<<reversedString<<endl;
     //cout<<"for loop ended"<<endl;
     currentStr = (lastWord) ? "" :s.erase(0,pos+1);
