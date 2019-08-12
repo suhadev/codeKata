@@ -22,5 +22,5 @@ int main(){
 			}
 		}
 	}
-		cout<<a[n-k];
+cout<<a[n-k];
 }
