@@ -41,16 +41,23 @@ int main(){
         	ss.push_back(a[i]);
         }
     }
-  //  vector <int>::iterator it;
-   //for(it=s.begin();it<s.end();it++){
-   //	cout<<*it;
-   //}
-   
-   for(auto k:s){
-   	cout<<k<<" ";
+  
+    for(int i=0;i<s.size();i++){
+    //cout<<"size"<<s.size();    
+	//cout<<s[i];
+	if(i == s.size() -1){
+		cout<<s[i]<<"";
+	} else{
+		cout<<s[i]<<" ";
+	}
    }
    cout<<"\n";
-   for(auto k:ss){
-   	cout<<k<<" ";
+   for(int i=0;i<ss.size();i++){
+	//cout<<ss[i];
+	if(i == ss.size() - 1){
+		cout<<ss[i]<<"";
+	} else{
+		cout<<ss[i]<<" ";
+	}
    }
 }
